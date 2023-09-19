@@ -303,9 +303,9 @@ export default class PdfView extends Component {
 
     };
 
-    _onPageChanged = (page, numberOfPages) => {
+   _onPageChanged = (page, numberOfPages,content) => {
         if (this.props.onPageChanged && this.state.currentPage !== page) {
-            this.props.onPageChanged(page, numberOfPages);
+            this.props.onPageChanged(page, numberOfPages,content);
             this.setState({currentPage: page});
         }
     };
