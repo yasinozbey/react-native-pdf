@@ -25,6 +25,7 @@
    showsHorizontalScrollIndicator: ?boolean,
    showsVerticalScrollIndicator: ?boolean,
    enableAntialiasing: ?boolean,
+   enableDoubleTapZoom: ?boolean, // add this line
    fitPolicy: ?Int32,
    spacing: ?Int32,
    password: ?string,
